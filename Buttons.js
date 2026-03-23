@@ -2,6 +2,7 @@
 const whatButton = document.getElementById("what-button");
 const noiseButton = document.getElementById("noise-button");
 const interviewButton = document.getElementById("interview-button");
+const stubbornbutton = document.getElementById("stubborn-button");
 // const guestbookPGButton = document.getElementById("guestbook-pg-button");
 // const guestbookMSMSButton = document.getElementById("guestbook-msms-button");
 // const guestbookBHSButton = document.getElementById("guestbook-bhs-button");
