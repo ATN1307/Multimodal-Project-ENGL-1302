@@ -25,7 +25,7 @@ body {
   background-size: cover;
   -webkit-transition: background-image 1s ease-in-out;
   transition: background-image 1s ease-in-out;
-  background-image: url("https://t3.ftcdn.net/jpg/06/13/44/90/360_F_613449078_pCi4ZFvUA9zmWYhu3D8cWtM8Ro20bVpb.jpg");
+  background-image: url("../images/Main_Background_3.jpg");
 }
 
 .center {
