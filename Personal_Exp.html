@@ -1,0 +1,311 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Am I one of the Psychologists?</title>
+  <style>
+   body {
+  font-family: 'Times New Roman', Times, sans-serif;
+  margin: 0;
+  padding: 20px;
+  /* Apply background to the body directly or use your div */
+  background: url("Personal_Exp_Background.jpg") no-repeat center center fixed;
+  background-size: cover; /* 'cover' usually looks better for full-page backgrounds than 'contain' */
+}
+
+ .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("Personal_Exp_Background.jpg") center/cover no-repeat;
+      filter: blur(8px);
+      z-index: -1;
+    }
+
+     .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgb(218, 206, 255);
+      opacity: 0.95;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    .summary {
+      background: #eef4ff;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #f0f0f0;
+      font-size: 0.85rem;
+    }
+
+    .section {
+      margin-bottom: 24px;
+    }
+
+    .section-header {
+      border-left: 4px solid #4a6ee0;
+      padding-left: 10px;
+      margin-bottom: 12px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      align-items: stretch; /* Ensures cards are the same height */
+    }
+
+    /* Card 1 Fix */
+  .card1, .card2 {
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: #fafafa;
+    border: 5px solid #e1e1e1;
+    font-size: 0.95rem;
+    width: 450px; /* Keep this at 100% to fill the grid column */
+    box-sizing: border-box; /* Crucial: keeps the border/padding inside the box */
+    align-items: center;
+  }
+
+  .card1 h3 {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+    .card2 h3 {
+      margin-top: 0;
+      font-size: 1rem;
+    }
+
+    .card3 {
+      border-radius: 10px;
+      padding: 10px 14px;
+      background: #fafafa;
+      border: 5px solid #e1e1e1;
+      font-size: 0.95rem;
+      width: 870px;
+    }
+
+    .card3 h3 {
+      margin-top: 0;
+      font-size: 1rem;
+    }
+
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      border-radius: 999px;
+      background: #e3f2fd;
+      color: #1565c0;
+      margin-top: 6px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    @media (max-width: 700px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltip .tooltip-img {
+      visibility: hidden;
+      opacity: 0;
+      width: 250px;
+      position: absolute;
+      top: -10px;
+      left: 120%;
+      border-radius: 8px;
+      transition: opacity 0.3s;
+      z-index: 20;
+    }
+
+    .tooltip:hover .tooltip-img {
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+    .tool {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tool .tool-img {
+      visibility: hidden;
+      opacity: 0;
+      width: 250px;
+      position: absolute;
+      top: -10px;
+      left: 120%;
+      border-radius: 8px;
+      transition: opacity 0.3s;
+      z-index: 20;
+    }
+
+    .tool:hover .tool-img {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .page_header {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: larger;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="content">
+      <main class="page">
+        <a href="Main_Page.html" class="back-link">← Back to Psychologists Homepage</a>
+        <br>
+        <br>
+        <div class="page_header">
+          <h1>Am I one of the Psychologists?</h1>
+        </div>
+
+        <div class="summary">
+          <strong>Summary:</strong> In this page, I will be sharing my personal experiences with how travelling has affected my communication throughout years the I spent moving from country to country.
+          Having my personal experiences will make it easier to understand the points the psychologists make about why they think travel hinders the development of communication rather than promote it. 
+          And since my personal experiences act as a evidence for the points made by the psychologists, I will be providing a summary of the psychologists' points at the end.
+        </div>
+
+        <div class="pill-row">
+          <span class="pill">Self-Observation</span>
+          <span class="pill">Self-Reflection</span>
+          <span class="pill">Personal Experiences</span>
+          <span class="pill">Daily life</span>
+        </div>
+
+        <!-- Methods section -->
+        <section class="section">
+          <div class="section-header">
+            <h2>Points I Will Go Over</h2>
+          </div>
+          <p>
+            My personal experiences will be split into the 3 major points, each of them is related to a 
+            point, made by the psychologists I researched in previous projects. The 3 major points are:</p>
+          <ol>
+            <li><strong> Loneliness and Isolation</strong></li>
+            <li><strong> Anxiety</strong></li>
+            <li><strong> Definition of Empathy</strong></li>
+          </ol>
+        </section>
+
+        <!-- Themes/findings -->
+        <section class="section">
+          <div class="section-header">
+            <h2>Personal Experiences:</h2>
+          </div>
+          <div class="two-col">
+            <article class="card1">
+              <h3>1. Loneliness and Isolation</h3>
+              <p>
+                The first point made by the psychologists is that travel hinders communications by causing loneliness and isolation. Loneliness was one of the first emotions I felt when I had to travel to from Oman to Brunei. Before Brunei, I had spent years in 
+                <span class="tool">
+                  <img class="tool-img" src="https://static.barcelo.com/content/dam/bpt/posts/2023/9/holidays-to-oman_famous-sights-in-oman.jpg" alt="Oman Image">
+                Oman 
+                </span>
+                getting to know its culture and making friends. 
+                However, when I moved to Brunei, I had to leave all of those connections behind and go through the process of making new connections all over again. 
+                This process of making new connections was very difficult for me because I had to adjust to a completely new culture and way of life. I didn't want to risk offending anyone so I had to 
+                keep myself on a tight leash and be very careful about what I said and how I acted. This made it very hard for me to make new friends and connect with people in Brunei which made me feel very lonely and isolated.
+                Due to travel, I was stripped away from my support system I had in oman, and I was put in country 1000s of miles away. Thinking about the distance between me and friends in Oman, only developed my feelings of loneliness and isolation becasue I knew that I would be 
+                able to recreate the connections I had in Oman in Brunei. When I was in Oman I had someting common with the people around me, I had the same culture, the same food, the same language, etc. but when I moved to Brunei, I had nothing in common with the people around me which made it very hard for me to connect with them.
+                My inability to connect with the locals resulted in me isolating myself because I didn't want to risk offending anyone or saying something wrong, this caused me to lose out on a lot of socializing which diminish my communication skills and heightend my feelings of anxiety.
+            </p>
+            </article>
+
+            <article class="card2">
+              <h3>2. Anxiety</h3>
+              <p>
+                The second point made by the psychologists is that travel hinders communication by anxiety. One way travel causes anxiety is through the unfamiliarity of new environments and stripping a person away from their circle of trusts. 
+                While I was on the plane to Brunei, I realized that I would never get to see those friends ever again. This made me realize that when I arrive at Brunei, I would have no one to trust which heigtened my communication-related anxiety because I know
+                I would have to rely on when I needed help with something. In addition, being in a new enviroment meant encounter many unfamiliar things such as the culture, the food, the language, etc. which made me very anxious about communicating with the locals in Brunei because I was so afraid of saying something wrong or offending someone.
+                            
+              </p>
+            </article>
+            </div>
+            <br>
+            <article class="card3">
+              <h3>3. Definition of Empathy</h3>
+              <p>
+                In english, empathy is defined as the ability to understand and share the feelings of another. The psyschologists definiton of empathy is almost the same expect they add that empathy is more about
+                caring and nutruing existing connections rather than letting go of them to create new ones. While I was in Brunei, I adhered a lot to the psychologists definition of empathy. I cared a lot about the connections I had in Oman and I didn't want to let go of them to create new ones in Brunei.
+                This made it very hard for me to connect with people in Brunei because I was so focused on caring for the connections I had in Oman that I didn't have the energy or the motivation to care for the connections I could have made in Brunei. This mindset led to me isolating myself and losing out on a lot of communication practice which only
+                helped to increase my communication-related anxiety and feelings of loneliness.
+              </p>
+            </article>
+        </section>
+
+        <!-- Evidence section -->
+        <section class="section">
+          <div class="section-header">
+            <h2>Review of the Psychologists Points:</h2>
+          </div>
+          <ul>
+            <li><strong>Loneliness and Isolation #1 :</strong> Travel can hinder communication by putting people in unfamiliar environments, which can lead to feelings of isolation and loneliness, because they start to feel disconnected from their usual support systems.</li>
+            <li><strong>Anxiety #2 :</strong>By forcing a person out of their circle of trust, travel can induce communication-related anxiety as they become more distrustful of others.</li>
+            <li><strong>Definition of Empathy #3:</strong> psychologists define empathy as caring for and nurturing existing connections, not replacing them with new ones every single time you travel.</li>
+          </ul>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="section">
+          <div class="section-header">
+            <h2>Psychoanalysis of the Psychologists' Perspectives:</h2>
+          </div>
+          <p>
+          The way the psychologists defined empathy is big reason as to why travel to us hindered the development of communication. A live example of this definition is me , since I was not willing to just throw away the connections I had in Oman to create new ones in Brunei, I was not able to connect with the locals in Brunei which made me feel very lonely and isolated. 
+          The loneliness and isolation paired with the caused me to lose out on a lot of communication practice which only helped to increase my communication-related anxiety. Being in a new environment with no support system and no connections to rely on, made me very anxious about communicating with the locals in Brunei because I was so afraid of
+          saying something wrong or offending someone. In addition, my unwillingness to let go of my support system meant that I was left without a support system in Brunei only helped to increase my communication-related anxiety because I had no one to rely on in Brunei. Overall, travel hinders the development of communication by giving them less opportunites to socialize and weakening a person's mental fortitude
+          by stripping them away from their support system and putting them in unfamiliar environments.
+          </p>
+        </section>
+      </main>
+    </div>
+</body>
+</html>

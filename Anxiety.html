@@ -1,0 +1,268 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anxiety</title>
+  <style>
+    body {
+      font-family: times 'Times New Roman', Times, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: url("https://i.redd.it/colors-for-windows-11-wallpaper-v2-v0-b6ivcoeqe2l81.png?width=3840&format=png&auto=webp&s=4568627660a4cab53b14610ef7d70565ff1e0b2b") center/cover fixed;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("https://i.redd.it/colors-for-windows-11-wallpaper-v2-v0-b6ivcoeqe2l81.png?width=3840&format=png&auto=webp&s=4568627660a4cab53b14610ef7d70565ff1e0b2b") center/cover fixed;
+      filter: blur(8px);
+      z-index: -1;
+    }
+
+     .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #d4ffc4;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      opacity: 0.95;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #f0f0f0;
+      font-size: 0.85rem;
+    }
+
+
+.section-header, .section-header1, .section-header2 {
+  display: flex;          /* Enables Flexbox */
+  align-items: center;    /* Centers text vertically against the border */
+  padding-left: 15px;     /* Space between border and text */
+  margin-bottom: 20px;    /* Space below the header */
+  height: 40px;           /* Manually set height to control exactly how long the border is */
+}
+
+/* This is the secret: remove the default browser margin from the H2 */
+.section-header h2, 
+.section-header1 h2, 
+.section-header2 h2 {
+  margin: 0; 
+  line-height: 1;        /* Keeps the text height tight */
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, sans-serif;     /* Adjust as needed */
+}
+
+.section-header1 {
+  border-left: 5px solid #2ec675;
+}
+.section-header2 {
+  border-left: 5px solid #ee5b5b;
+}
+.section-header {
+  border-left: 5px solid #0130ef;
+}
+
+   /* Container Setup */
+.two-col {
+  display: grid;
+  /* Creates columns that wrap automatically if they get smaller than 300px */
+  grid-template-rows: repeat(auto-fit, minmax(15px, 10fr));
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    border-radius: 999px;
+    background: #e3f2fd;
+    color: #1565c0;
+    margin-top: 6px;
+  }
+
+
+    @media (max-width: 700px) {
+      .two-col {
+        grid-template-rows: 1fr;
+      }
+    }
+
+.card1 {
+    border-radius: 10px;
+    padding: 12px 14px;
+    background:#f0fff4;
+    border: 5px solid #2ec675;
+    font-size: 0.95rem;
+    width: 895px; /* Keep this at 100% to fill the grid column */
+    box-sizing: border-box; /* Crucial: keeps the border/padding inside the box */
+    align-items: center;
+    font-family: 'Times New Roman', Times, sans-serif;
+  }
+
+.card2 {
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: #ffe6e6;
+    border: 5px solid #ee5b5b;
+    font-size: 0.95rem;
+    width: 895px; /* Keep this at 100% to fill the grid column */
+    box-sizing: border-box; /* Crucial: keeps the border/padding inside the box */
+    align-items: center;
+    font-family: 'Times New Roman', Times, sans-serif;
+  }
+
+  .card1 h3 {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+    .card2 h3 {
+      margin-top: 0;
+      font-size: 1rem;
+    }
+
+.page_header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size:larger;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color:  #8dff71;
+}
+
+.section{
+  border-radius: 10px;
+  padding: 12px 14px;
+  background:#dae0ff;
+  border: 5px solid #0130ef;
+  font-size: 0.95rem;
+  width: 895px; /* Keep this at 100% to fill the grid column */
+  box-sizing: border-box; /* Crucial: keeps the border/padding inside the box */
+  align-items: center;
+  margin-bottom: 24px;
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.quote {
+  border-left: 4px solid #8c00ff;
+  padding-left: 12px;
+  margin: 8px 0;
+  font-style: italic;
+  font-size: 0.9rem;
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.quote span {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #666;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+
+</style>
+</head>
+<body>
+<a href="Main_Page.html" class="back-link">Back to Main Page</a>
+
+<div class="content">
+  <main class="page">
+  <br>  
+  <br>
+    <div class="page_header">
+      <h1>Loneliness and Isolation:</h1>
+    </div>
+    <div class="two-col">
+        <div class="section-header1">
+          <h2>Travel Agencies/Bloggers' Point of View:</h2>
+        </div>
+        <article class="card1">
+            <p>
+              Travel to new places means ecounter new people with this comes the anxiety of communicating with new people. Anxiety heavily hinders a person's ability to communicate because it makes them too scared to communicate with new people. This is because they
+              are so afraid of saying something wrong or offending someone that they avoid communication altogether. According to the travel agencies/bloggers, travel eases anxiety by pushing people to face their fears of communicating in a low-stakes environment. It doesn't force a person to immediately start presenting
+              in front of a 1000 people, instead travel pushes a person out of their comfort in small conversations with locals or other travelers. This allows a person to slowly build up their confidence and eventually overcome their anxiety of communicating with new people. T
+              Travel also helps reduce communication-related anxiety by providing opportunities for social interaction. When people travel, they often engage in social activities such as group tours, cultural events, or communal dining experiences. 
+              These interactions can help individuals practice their communication skills in a supportive environment, which can lead to increased confidence and reduced anxiety over time.
+            </p>
+            <div class="quote">
+              <strong>
+               “When you travel you meet new people, discover new places, adapt to new situations, and become more socially aware. New experiences help you keep your mind sharp and improve your cognitive flexibility, which all helps you manage stress.
+                The Journal of Personality and Social Psychology found that those who travel are more likely to be open and emotionally stable, while other studies have shown that travel can increase creativity, cultural and personal awareness, and
+                introduce new ways of thinking.”
+            <span>-Katie Birtles, 15 April 2021</span>
+              </strong>
+            </div>
+            </article>
+
+        <div class="section-header2">
+          <h2>Psychologists' Point of View:</h2>
+        </div>
+        <article class="card2">
+            <p>
+              The second point made by the psychologists is that travel aids in developing a person's communication-related anxiety. Communication is directly effected by the emotions of a person; if a person is feeling anxious they'll be too scared to communicate and if there calm communication won't be a problem for them. 
+              The point is that a person’s mental well-being/emotions play an important role in communication. Travel forces a person to navigate new environments without any preparation. Navigating through new environments means encounter new cultures, languages, and customs, but since travel doesn't really train a person
+              to overcome the ecounters it causes a sense of anxiety. This makes people anxious because they don’t want to risk offending anyone or are unsure how to overcome the language barrier. This anxiety can be so bad that it can lead to a person avoiding communication altogether, which will cause them to lose out on
+              important social interactions that can help develop their communication skills. In addition, travel can also develop a person's communication-related anxiety by stripping them of their usual support systems. When people travel, they are often removed from their familiar social networks and support systems. 
+              This can exacerbate anxiety and make it more difficult for individuals to initiate and maintain social interactions in the new environment becasue said individuals find it hard to talk and connect to someone who they can't trust.
+            </p>   
+            <div class="quote">
+              <strong>
+                “The largest cause of anxiety when travelling was interacting with other people, particularly what other people thought about the respondent and the need to mix with strangers,
+                but also the behaviour of other people.” 
+                <span>-Discovery.ucl.ac.uk, 2021</span>
+              </strong>
+            </div>
+            </article>
+      </section>
+    </div>
+     
+        <div class="section-header">
+          <h2>Conclusion:</h2>
+        </div>
+    <section class="section">  
+        <p>
+          Sometimes a person might be too anxious to try and communicate with new people, whether it be becasue of the fear of offending someone or the fear of just being judged by someone for communicating, travel
+          can put a person in a situation where they are ill-equipped to face the new environment and the new people they encounter. This can lead to a person avoiding communication altogether, which will cause them
+          to lose out on important social interactions that can help develop their communication skills. However, to say that travel completly hinders the development of communication by developing a person's communication-related anxiety would be an overstatement.
+          Travel can also help reduce communication-related anxiety by providing opportunities for social interaction. When people travel, they often engage in social activities such as group tours, cultural events, or communal dining experiences. These small interactions
+          provide a person with the chance to practice their communication in an unstressful environment. Unlike presenting in front of a crowd, where the person might worry about what the other 20 people are thinking about them, travel puts people in less stressful situations where they 
+          can focus on more one on one conversation, such as talking with a hotel employee or a shopkeeper. Travel eases the feeling of anxiety by providing a person with constant social interactions, these interactions whether it be 
+          big or small help build confindence and develop the idea that communication isn't something to be anxious about. 
+        </p>
+    </section>
+  </main>
+</div>
+</body>
+</html>

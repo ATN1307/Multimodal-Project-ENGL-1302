@@ -1,0 +1,343 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final Conclusions</title>
+  <style>
+   body {
+  font-family: 'Times New Roman', Times, sans-serif;
+  margin: 0;
+  padding: 20px;
+  /* Apply background to the body directly or use your div */
+  background: url("https://4kwallpapers.com/images/wallpapers/windows-11-stock-orange-abstract-dark-background-3840x2400-8960.png") no-repeat center center fixed;
+  background-size: cover; /* 'cover' usually looks better for full-page backgrounds than 'contain' */
+}
+
+ .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://4kwallpapers.com/images/wallpapers/windows-11-stock-orange-abstract-dark-background-3840x2400-8960.png") center/cover no-repeat;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgb(255, 199, 162);
+  opacity: 0.95;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+.summary {
+  background: #c4d9ff;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+.pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f0f0f0;
+  font-size: 0.85rem;
+  background: #c4d9ff;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section-header {
+  border-left: 4px solid #4a6ee0;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+.section-header1 {
+  border-left: 4px solid #20ff14;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+.section-header2 {
+  border-left: 4px solid #ff0000;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: stretch; /* Ensures cards are the same height */
+}
+
+    /* Card 1 Fix */
+.card1, .card2 {
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #fafafa;
+  font-size: 0.95rem;
+  width: 100%; /* Keep this at 100% to fill the grid column */
+  box-sizing: border-box; /* Crucial: keeps the border/padding inside the box */
+  align-items: center;
+}
+
+.card1{
+border: 5px solid #20ff14;
+}
+
+.card2{
+border: 5px solid #ff0000;
+}
+
+.card1 h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.card2 h3 {
+  margin-top: 0;
+font-size: 1rem;
+}
+
+.card4 {
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #fafafa;
+  border: 5px solid #4a6ee0;
+  font-size: 0.95rem;
+  width: 870px;
+}
+
+.card4 h2 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  background: #e3f2fd;
+  color: #1b34ef;
+  margin-top: 6px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #0b6ed0;
+}
+
+@media (max-width: 700px) {
+  .two-col {
+    grid-template-columns: 1fr;
+    }
+}
+
+.tooltip {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.tooltip .tooltip-img {
+  visibility: hidden;
+  opacity: 0;
+  width: 250px;
+  position: absolute;
+  top: -10px;
+  left: 120%;
+  border-radius: 8px;
+  transition: opacity 0.3s;
+  z-index: 20;
+}
+
+.tooltip:hover .tooltip-img {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.tool {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tool .tool-img {
+  visibility: hidden;
+  opacity: 0;
+  width: 250px;
+  position: absolute;
+  top: -10px;
+  left: 120%;
+  border-radius: 8px;
+  transition: opacity 0.3s;
+  z-index: 20;
+}
+
+.tool:hover .tool-img {
+  visibility: visible;
+  opacity: 1;
+}
+
+.page_header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+    <div class="content">
+      <main class="page">
+        <a href="Main_Page.html" class="back-link">← Back to Psychologists Homepage</a>
+        <br>
+        <br>
+        <div class="page_header">
+          <h1>Final Conclusions</h1>
+        </div>
+        <br>
+        <div class="summary">
+          <strong>Summary:</strong> This page is called "Final Conclusions", becasue this page goes over the final answer to my research question does travel positively or negatively affect 
+          a person's communication.
+        </div>
+        <div class="pill-row">
+          <span class="pill">Final-Observations</span>
+          <span class="pill">Conclusions</span>
+        </div>
+        <br>
+
+        <!-- Methods section -->
+        <section class="section">
+          <div class="section-header">
+            <h2>Defintion of Empathy:</h2>
+          </div>
+          <article class="card4">
+          <p>
+            The reasons my stakeholders differ so much in their opinion of travel and its affect on the communication of person can be summed up by there differemces in the defintion of empathy. One views empathy as 
+            caring for and nuturing for the past while another believes that empathy should be caring about things you have infront of you.
+          </p>
+          </article>
+        </section>
+        <br>
+
+        <!-- Themes/findings -->
+        <section class="section">
+          <div class="two-col">
+            <div>
+              <div class="section-header1">
+                <h2>Travel Agencies/Bloggers' Point of View:</h2>
+              </div>
+              <article class="card1">
+                <p>
+                  The travel bloggers/agencies believe without a dout that travel positively affects a person's communication. Throughout the webpages, I went over the points of loneliness, isolation, and anxiety,
+                  and talked about how the travel bloggers believe that travel betters communication by reducing those aforementioned feelings. A big reason as to why the travel bloggers think this way is because of their
+                  of definition of empathy. Travel bloggers define empathy as connecting with and understanding their new environment and its people. This definition of empathy promotes the 
+                  act of socializing as it tells a person to focus on connecting with the environment. By focusing on trying to care and connect with the people in their new enviroment, it provides a person
+                  with plenty of real-life scenarios where they can practice their communication skills. This practice allows a person to not only hone their physical skills in communication, but also their mental skills. Encounteting
+                  all these new people, cultures, and customs, without any preparation is gauranteed to make a person anxious. What if I risk offending someone? or I don't know what kind of person they are the usual thoughts that might 
+                  run through a person's head when trying to encounter all these new things. Trying to connect with the locals can help ease a person's anxiety as it allows a person to create a feeling of familiarity with locals. This can help 
+                  a person avoid feeling out of place and anxious as familiarity establishes trusts which allows a person to find like minded individuals they can relate too. This belief that a person's communication can be bettered by travel, 
+                  is due to the travel bloggers defining empathy as focusing on trying to connect with and understand the enviroment they are in.  
+                </p>
+              </article>
+            </div>
+
+            <div>
+              <div class="section-header2">
+                <h2>Pyschologists' Point of View:</h2>
+              </div>
+              <article class="card2">
+                <p>
+                  On the hand of the spectrum, we have the psychologists. Travel forces people to encounter new customs, enviroment, languages, and people without any preparation. This lack of preparation causes
+                  people to feel anxious and alone. During these times of anxiousness and loneliness, a person usually has a support systems of friends and family they can rely on. Without this support system, they don't have anyone to rely
+                  on which can cause them to fall into a loop of loneliness and anxiety which can eventually lead a person to give up on communicating as a whole. Because of the aforemetioned reasons, the psychologists believe that travel negatively
+                  affects a person's communication. The reasons of anxiety and loneliness listed by the psychologists can be explained by their definition of empathy. Psyschologists define empathy as caring for and nurturing existing connections, not replacing them with new ones. By stripping a person
+                  away from their support system, they are left to navigate this new place by themsleves without having anybody to trust. Without their trust system, a person can start to feel out place because they have no one to confide in. This lack of
+                  trust can also make it difficult for a person to connect with the locals because there is always that thought of "Can I really trust this person ?", this thought process can lead to a dry and unintenionally offensive person. However, if said person were to
+                  have a friend with them, it would make interacting with the locals of this new place a less anxious task because they have someone to fall back on if things do go wrong. In addition to this, having a friend around while you're trying to
+                  understand this new place makes a person feel less lonely because their also going through the same thing.
+                </p>
+              </article>
+            </div>
+          </div>
+          <br>
+        </section>
+
+        <!-- Evidence section -->
+        <section class="section">
+          <div class="section-header">
+            <h2>Review of the Psychologists Points:</h2>
+          </div>
+          <ul>
+            <li><strong>Loneliness and Isolation #1 :</strong> Travel can hinder communication by putting people in unfamiliar environments, which can lead to feelings of isolation and loneliness, because they start to feel disconnected from their usual support systems.</li>
+            <li><strong>Anxiety #2 :</strong>By forcing a person out of their circle of trust, travel can induce communication-related anxiety as they become more distrustful of others.</li>
+            <li><strong>Definition of Empathy #3:</strong> Psychologists define empathy as caring for and nurturing existing connections, not replacing them with new ones every single time you travel.</li>
+          </ul>
+
+          <div class="section-header">
+            <h2>Review of the Travel Bloggers/Agencies Points:</h2>
+          </div>
+          <ul>
+            <li><strong>Loneliness and Isolation #1 :</strong> Travel can reduce feelings of loneliness by pushing a person into random social interactions, which develop communication by giving you chances to try out different communication skills.<li>
+            <li><strong>Anxiety #2 :</strong>Travel can reduce communication-related anxiety by constantly forcing them into social interactions, this repetitin acts as practice and preparation which helps a person treat communication as a mundane routine not a dreadful task.</li>
+            <li><strong>Definition of Empathy #3:</strong> Travel bloggers define empathy as connecting with and understanding their new environment and its people.</li>
+          </ul>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="section">
+          <div class="section-header">
+            <h2>The Final Perspective:</h2>
+          </div>
+          <article class="card4">
+          <p>
+           Without a dout, I can say that it is important to look after and the connections you already have. Even when a person is away from them, knowing that there are people in this world who are willing
+           to support you while you navigate this new place makes life a tad bit easier. However, a person shonuldn't give up on trying to make new connections, because they are too focused on the connections they already have.
+           In other words, caring for your exsiting connections shouldn't hinder your efforts in communicate and connect with the local population in front of you. Focusing too much on the connections we had before traveling to this new place
+           is definitely going to cause a person to feel lonely and anxious because they'll be constantly comparing these new people to their friiends and family back. These comparsions are bad becasuse they keep bringing up the idea of what could've been
+           and not what is. Instead of trying to connect with the locals, they'll be too busy comparing how much more worse these new people are comapred to their buddies back home. This can lead to feelings loneliness, isolation, and tons of anxiety because they're too
+           busy thinking about what could've been, which can lead to thoughts like "If I was with my friends this would be so much more fun" or "I could've been with people I actually know". This causes a person to isolate themselves from their new enviroment and also makes them
+           them a weak communicator as they'll end up sounding dry, which can cause them to accidently offend the locals by how unintresting they sound. This isolation can lead to loneliness and which causes a person to avoid communicating as whole which leads to a development of communication-related 
+           anxiety. Even though travel takes a person far away from are exisiting connections, it's not necessarily stripping a person away from their connections. Those exsisting connections are still existing, but to make the most of your time in a new place means communicating with its people and trying to
+           form bonds with them not hiding yourself. By focusing on the present and trying to connect with the loacals around, it develops a person's communication by providing social interactions where they can test out there sharpen their communication skills, reduce their communication-related anxiety by training
+           themsleves to get used to it, and learn different forms of communication which can help form new connections which can also help further strengthen the exisiting connections. 
+          </p>
+          </article>
+        </section>
+      </main>
+    </div>
+</body>
+</html>
